@@ -2,6 +2,7 @@ import Home from "../pages/Home";
 import TodoList from "../pages/TodoList";
 import Cart from "../pages/Cart";
 import Demo from "../pages/Demo";
+import Search from "../pages/Search";
 
 const routes = [
     {
@@ -19,6 +20,10 @@ const routes = [
     {
         path: "/demo",
         element: <Demo />
+    },
+    {
+        path: "/search",
+        element: <Search />
     }
 ];
 
