@@ -2,7 +2,7 @@ import {FC} from 'react';
 
 const Home: FC = () => {
     return (
-        <div>home</div>
+        <div>我是首页</div>
     )
 }
 
